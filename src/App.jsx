@@ -1,4 +1,14 @@
-import { Companies, Hero, Navbar } from "./components";
+import {
+  Companies,
+  Courses,
+  Hero,
+  Navbar,
+  Achievement,
+  Feedback,
+  CTA,
+  Categories,
+  Footer,
+} from "./components";
 import "./App.css";
 
 const App = () => {
@@ -7,6 +17,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <Companies />
+      <Courses />
+      <Achievement />
+      <Categories />
+      <Feedback />
+      <CTA />
+      <Footer />
     </>
   );
 };
