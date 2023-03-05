@@ -1,9 +1,11 @@
-import { Navbar } from "./components/Index";
+import { Hero, Navbar } from "./components";
+import "./App.css";
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   );
 };

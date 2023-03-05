@@ -8,7 +8,7 @@ const Navbar = () => {
   };
   return (
     <header className="w-full h-[96px] bg-white border border-[20B486]">
-      <div className="md:max-w-[1480px] max-w-[600px] px-6  w-full h-full flex justify-between items-center m-auto">
+      <div className="contain py-6 flex justify-between items-center m-auto">
         <img src={logo} alt="logo" />
 
         <nav className="hidden md:flex ">
