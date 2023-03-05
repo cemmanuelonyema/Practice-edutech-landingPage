@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "./components";
+import { Companies, Hero, Navbar } from "./components";
 import "./App.css";
 
 const App = () => {
@@ -6,6 +6,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
+      <Companies />
     </>
   );
 };
