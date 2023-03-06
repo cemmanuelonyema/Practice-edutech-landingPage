@@ -8,7 +8,7 @@ import {
   CTA,
   Categories,
   Footer,
-} from "./components";
+} from "./components/index";
 import "./App.css";
 
 const App = () => {
