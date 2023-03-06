@@ -1,6 +1,8 @@
+//package imports
 import React from "react";
+import { AiOutlineSearch } from "react-icons/ai";
+//files imports
 import { heroImg } from "../assets";
-// import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -25,11 +27,11 @@ const Hero = () => {
               placeholder="What do you want to learn?"
             />
             <button>
-              {/* <AiOutlineSearch
+              <AiOutlineSearch
                 size={20}
                 className="icon"
                 style={{ color: "#000" }}
-              /> */}
+              />
             </button>
           </form>
         </div>
