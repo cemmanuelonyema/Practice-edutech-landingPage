@@ -1,6 +1,48 @@
 import React from "react";
+import Slider from "react-slick";
+import { courses } from "../data/Courses";
+import CourseCard from "./CourseCard";
 
 const Courses = () => {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ],
+  };
   return (
     <section className=" bg-[#E9F8F3B2] py-32">
       <div className="contain">
@@ -12,6 +54,13 @@ const Courses = () => {
             Various versions have evolved over the years, sometimes by accident.
           </p>
         </div>
+        <Slider {...settings} className="px-5">
+          {courses.map((course, i) => (
+            <div key={i}>
+              <CourseCard course={course} />
+            </div>
+          ))}
+        </Slider>
       </div>
     </section>
   );
