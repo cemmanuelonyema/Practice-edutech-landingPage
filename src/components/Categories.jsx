@@ -13,14 +13,14 @@ const Categories = () => {
   return (
     <section className="w-full bg-[#F0FBF7] py-24">
       <div className="contain">
-        <h1 className="md:leading-[72px] text-3xl font-bold">
+        <h1 className="md:leading-[72px] md:text-3xl text-2xl font-bold">
           Most <span className="text-[#20B486]">Popular Categories</span>
         </h1>
         <p className="text-lg text-gray-600">
           Various versions have evolved over the years, sometimes by accident.
         </p>
 
-        <div className="grid lg:grid-cols-4 grid-cols-2 py-12 md:gap-4 gap-1">
+        <div className="grid lg:grid-cols-4 grid-cols-1 py-12  gap-6">
           <CategoryCard icons={<BsVectorPen size={30} />} title={"Design"} />
           <CategoryCard icons={<TiHtml5 size={30} />} title={"Development"} />
           <CategoryCard
