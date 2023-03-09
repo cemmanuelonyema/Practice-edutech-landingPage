@@ -9,9 +9,10 @@ import { BiData } from "react-icons/bi";
 import { MdAttachMoney } from "react-icons/md";
 import { FaUniversity } from "react-icons/fa";
 import CategoryCard from "./CategoryCard";
+
 const Categories = () => {
   return (
-    <section className="w-full bg-[#F0FBF7] py-24">
+    <section className=" bg-[#F0FBF7] py-24">
       <div className="contain">
         <h1 className="md:leading-[72px] md:text-3xl text-2xl font-bold">
           Most <span className="text-[#20B486]">Popular Categories</span>
@@ -20,7 +21,7 @@ const Categories = () => {
           Various versions have evolved over the years, sometimes by accident.
         </p>
 
-        <div className="grid lg:grid-cols-4 grid-cols-1 py-12  gap-6">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2  grid-col-1 py-12  gap-6">
           <CategoryCard icons={<BsVectorPen size={30} />} title={"Design"} />
           <CategoryCard icons={<TiHtml5 size={30} />} title={"Development"} />
           <CategoryCard

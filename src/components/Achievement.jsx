@@ -1,7 +1,7 @@
 import React from "react";
-import { achievement } from "../assets";
 import { SlGraduation, SlPeople } from "react-icons/sl";
 import { FiVideo } from "react-icons/fi";
+import { achievement } from "../assets";
 
 const Achievement = () => {
   return (
@@ -45,7 +45,6 @@ const Achievement = () => {
             </div>
             <div className="py-6 flex">
               <div className="p-4 bg-[#F0F7FF] rounded-xl">
-                {" "}
                 <SlPeople size={30} style={{ color: "#0075FD" }} />
               </div>
               <div className="px-3">
