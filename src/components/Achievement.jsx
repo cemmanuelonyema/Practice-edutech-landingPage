@@ -2,8 +2,6 @@ import React from "react";
 import { SlGraduation, SlPeople } from "react-icons/sl";
 import { FiVideo } from "react-icons/fi";
 import { achievement } from "../assets";
-import { SlGraduation, SlPeople } from "react-icons/sl";
-import { FiVideo } from "react-icons/fi";
 
 const Achievement = () => {
   return (

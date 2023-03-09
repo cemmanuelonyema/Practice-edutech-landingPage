@@ -1,5 +1,5 @@
 import React from "react";
-import { BsVectorPen, BsArrowUpRight } from "react-icons/bs";
+import {  BsArrowUpRight } from "react-icons/bs";
 
 const CategoryCard = ({ icons, title }) => {
   return (
