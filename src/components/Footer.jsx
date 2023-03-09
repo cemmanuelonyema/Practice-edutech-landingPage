@@ -11,7 +11,7 @@ import { logo } from "../assets";
 const Footer = () => {
   return (
     <footer className="bg-white py-12">
-      <div className="contain grid md:grid-cols-5">
+      <div className="contain grid md:grid-cols-5 grid-cols-1">
         <div className="col-span-2">
           <img src={logo} className="h-[25px]" />
           <h3 className="text-2xl font-bold mt-10">Contact Us</h3>
@@ -23,24 +23,36 @@ const Footer = () => {
           <h3 className="py-2 text-[#363A3D]">Email: example@mail.com</h3>
           <div className="flex gap-4 py-4">
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaFacebookF size={25} style={{ color: "#4DC39E" }} />
+              <FaFacebookF
+                md:size={25}
+                size={20}
+                style={{ color: "#4DC39E" }}
+              />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaDribbble size={25} style={{ color: "#4DC39E" }} />
+              <FaDribbble md:size={25} size={20} style={{ color: "#4DC39E" }} />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaLinkedinIn size={25} style={{ color: "#4DC39E" }} />
+              <FaLinkedinIn
+                md:size={25}
+                size={20}
+                style={{ color: "#4DC39E" }}
+              />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaInstagram size={25} style={{ color: "#4DC39E" }} />
+              <FaInstagram
+                md:size={25}
+                size={20}
+                style={{ color: "#4DC39E" }}
+              />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaBehance size={25} style={{ color: "#4DC39E" }} />
+              <FaBehance md:size={25} size={20} style={{ color: "#4DC39E" }} />
             </div>
           </div>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 md:col-span-1 col-span-2">
           <h3 className="text-2xl font-bold">Explore</h3>
           <ul className="py-6 text-[#6D737A]">
             <li className="py-2">Home</li>
@@ -51,7 +63,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8  md:col-span-1 col-span-2">
           <h3 className="text-2xl font-bold">Category</h3>
           <ul className="py-6 text-[#6D737A]">
             <li className="py-2">Design</li>

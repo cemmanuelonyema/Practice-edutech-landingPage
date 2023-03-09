@@ -1,7 +1,7 @@
 import React from "react";
-import { achievement } from "../assets";
 import { SlGraduation, SlPeople } from "react-icons/sl";
 import { FiVideo } from "react-icons/fi";
+import { achievement } from "../assets";
 
 const Achievement = () => {
   return (
@@ -21,7 +21,7 @@ const Achievement = () => {
                 <SlGraduation size={30} style={{ color: "#1A906B" }} />
               </div>
               <div className="px-3">
-                <h1 className="text-2xl font-semibold">300</h1>
+                <h1 className="md:text-2xl text-xl font-semibold">300</h1>
                 <p className="text-[#6D737A]">Instructor</p>
               </div>
             </div>
@@ -30,7 +30,7 @@ const Achievement = () => {
                 <FiVideo size={30} style={{ color: "#FFC27A" }} />
               </div>
               <div className="px-3">
-                <h1 className="text-2xl font-semibold">10,000+</h1>
+                <h1 className="md:text-2xl text-xl font-semibold">10,000+</h1>
                 <p className="text-[#6D737A]">Video</p>
               </div>
             </div>
@@ -39,17 +39,16 @@ const Achievement = () => {
                 <SlGraduation size={30} style={{ color: "#ED4459" }} />
               </div>
               <div className="px-3">
-                <h1 className="text-2xl font-semibold">20,000+</h1>
+                <h1 className="md:text-2xl text-xl font-semibold">20,000+</h1>
                 <p className="text-[#6D737A]">Student</p>
               </div>
             </div>
             <div className="py-6 flex">
               <div className="p-4 bg-[#F0F7FF] rounded-xl">
-                {" "}
                 <SlPeople size={30} style={{ color: "#0075FD" }} />
               </div>
               <div className="px-3">
-                <h1 className="text-2xl font-semibold">1,00,000+</h1>
+                <h1 className="md:text-2xl text-xl font-semibold">1,00,000+</h1>
                 <p className="text-[#6D737A]">Users</p>
               </div>
             </div>
